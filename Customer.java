@@ -1,0 +1,26 @@
+
+class Customer {
+
+    private String name;
+    private String phone;
+
+    public Customer(String name, String phone) {
+        this.name = name;
+        this.phone = phone;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void displayCustomerDetails() {
+
+        System.out.println("Customer Name: " + name);
+        System.out.println("Phone Number: " + phone);
+    }
+}
+
